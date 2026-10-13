@@ -17,9 +17,9 @@ import {
 } from 'lucide-react';
 
 // Update API base URL to use your CORS proxy worker
-const ACCOUNT_ID = process.env.NEXT_PUBLIC_ACCOUNT_ID;
-const API_TOKEN = process.env.NEXT_PUBLIC_API_TOKEN;
-const CORS_PROXY_URL = process.env.NEXT_PUBLIC_CORS_PROXY_URL;
+const ACCOUNT_ID = "60b7d53c49440433d9b9b8040e9b951f";
+const API_TOKEN = "cfut_4H9OmOSxN3IBwWnTnYUVbOt3A9je4CtWMZmVFzoF137506c3";
+const CORS_PROXY_URL = "https://admin.fcyrizz.workers.dev";
 
 // Update getAuthHeaders to ensure all values are strings
 const getAuthHeaders = () => ({
